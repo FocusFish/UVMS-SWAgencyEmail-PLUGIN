@@ -9,10 +9,10 @@ the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the impl
 FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a
 copy of the GNU General Public License along with the IFDM Suite. If not, see <http://www.gnu.org/licenses/>.
  */
-package eu.europa.ec.fisheries.uvms.plugins.sweagencyemail.producer;
+package fish.focus.uvms.plugins.sweagencyemail.producer;
 
-import eu.europa.ec.fisheries.uvms.commons.message.api.MessageConstants;
-import eu.europa.ec.fisheries.uvms.exchange.model.constant.ExchangeModelConstants;
+import fish.focus.uvms.commons.message.api.MessageConstants;
+import fish.focus.uvms.exchange.model.constant.ExchangeModelConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

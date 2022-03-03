@@ -9,12 +9,12 @@ the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the impl
 FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a
 copy of the GNU General Public License along with the IFDM Suite. If not, see <http://www.gnu.org/licenses/>.
  */
-package eu.europa.ec.fisheries.uvms.plugins.sweagencyemail.service;
+package fish.focus.uvms.plugins.sweagencyemail.service;
 
-import eu.europa.ec.fisheries.schema.exchange.common.v1.*;
-import eu.europa.ec.fisheries.schema.exchange.plugin.types.v1.EmailType;
-import eu.europa.ec.fisheries.schema.exchange.service.v1.SettingListType;
-import eu.europa.ec.fisheries.uvms.plugins.sweagencyemail.StartupBean;
+import fish.focus.schema.exchange.common.v1.*;
+import fish.focus.schema.exchange.plugin.types.v1.EmailType;
+import fish.focus.schema.exchange.service.v1.SettingListType;
+import fish.focus.uvms.plugins.sweagencyemail.StartupBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

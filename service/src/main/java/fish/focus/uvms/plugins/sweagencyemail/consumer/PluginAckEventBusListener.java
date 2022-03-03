@@ -9,14 +9,14 @@ the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the impl
 FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a
 copy of the GNU General Public License along with the IFDM Suite. If not, see <http://www.gnu.org/licenses/>.
  */
-package eu.europa.ec.fisheries.uvms.plugins.sweagencyemail.consumer;
+package fish.focus.uvms.plugins.sweagencyemail.consumer;
 
-import eu.europa.ec.fisheries.schema.exchange.registry.v1.ExchangeRegistryBaseRequest;
-import eu.europa.ec.fisheries.schema.exchange.registry.v1.RegisterServiceResponse;
-import eu.europa.ec.fisheries.schema.exchange.registry.v1.UnregisterServiceResponse;
-import eu.europa.ec.fisheries.uvms.exchange.model.constant.ExchangeModelConstants;
-import eu.europa.ec.fisheries.uvms.exchange.model.mapper.JAXBMarshaller;
-import eu.europa.ec.fisheries.uvms.plugins.sweagencyemail.StartupBean;
+import fish.focus.schema.exchange.registry.v1.ExchangeRegistryBaseRequest;
+import fish.focus.schema.exchange.registry.v1.RegisterServiceResponse;
+import fish.focus.schema.exchange.registry.v1.UnregisterServiceResponse;
+import fish.focus.uvms.exchange.model.constant.ExchangeModelConstants;
+import fish.focus.uvms.exchange.model.mapper.JAXBMarshaller;
+import fish.focus.uvms.plugins.sweagencyemail.StartupBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

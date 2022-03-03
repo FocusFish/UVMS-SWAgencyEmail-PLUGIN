@@ -9,9 +9,9 @@ the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the impl
 FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a
 copy of the GNU General Public License along with the IFDM Suite. If not, see <http://www.gnu.org/licenses/>.
  */
-package eu.europa.ec.fisheries.uvms.plugins.sweagencyemail;
+package fish.focus.uvms.plugins.sweagencyemail;
 
-import eu.europa.ec.fisheries.schema.exchange.movement.v1.SetReportMovementType;
+import fish.focus.schema.exchange.movement.v1.SetReportMovementType;
 
 import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
@@ -20,7 +20,7 @@ import java.util.concurrent.ConcurrentHashMap;
  **/
 public abstract class PluginDataHolder {
 
-    public final static String PLUGIN_PROPERTIES = "swagencyemail.properties";
+    public final static String PLUGIN_PROPERTIES = "plugin.properties";
     public final static String PROPERTIES = "settings.properties";
     public final static String CAPABILITIES = "capabilities.properties";
 

@@ -9,18 +9,18 @@ the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the impl
 FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a
 copy of the GNU General Public License along with the IFDM Suite. If not, see <http://www.gnu.org/licenses/>.
  */
-package eu.europa.ec.fisheries.uvms.plugins.sweagencyemail;
+package fish.focus.uvms.plugins.sweagencyemail;
 
-import eu.europa.ec.fisheries.schema.exchange.plugin.types.v1.PluginType;
-import eu.europa.ec.fisheries.schema.exchange.registry.v1.ExchangeRegistryMethod;
-import eu.europa.ec.fisheries.schema.exchange.service.v1.CapabilityListType;
-import eu.europa.ec.fisheries.schema.exchange.service.v1.ServiceType;
-import eu.europa.ec.fisheries.schema.exchange.service.v1.SettingListType;
-import eu.europa.ec.fisheries.uvms.exchange.model.constant.ExchangeModelConstants;
-import eu.europa.ec.fisheries.uvms.exchange.model.mapper.ExchangeModuleRequestMapper;
-import eu.europa.ec.fisheries.uvms.plugins.sweagencyemail.mapper.ServiceMapper;
-import eu.europa.ec.fisheries.uvms.plugins.sweagencyemail.producer.PluginMessageProducer;
-import eu.europa.ec.fisheries.uvms.plugins.sweagencyemail.service.FileHandlerBean;
+import fish.focus.schema.exchange.plugin.types.v1.PluginType;
+import fish.focus.schema.exchange.registry.v1.ExchangeRegistryMethod;
+import fish.focus.schema.exchange.service.v1.CapabilityListType;
+import fish.focus.schema.exchange.service.v1.ServiceType;
+import fish.focus.schema.exchange.service.v1.SettingListType;
+import fish.focus.uvms.exchange.model.constant.ExchangeModelConstants;
+import fish.focus.uvms.exchange.model.mapper.ExchangeModuleRequestMapper;
+import fish.focus.uvms.plugins.sweagencyemail.mapper.ServiceMapper;
+import fish.focus.uvms.plugins.sweagencyemail.producer.PluginMessageProducer;
+import fish.focus.uvms.plugins.sweagencyemail.service.FileHandlerBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
