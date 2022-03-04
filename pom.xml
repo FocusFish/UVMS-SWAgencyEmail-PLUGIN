@@ -45,9 +45,9 @@
     </dependencies>
 
     <scm>
-        <connection>scm:git:https://github.com/FocusFish/UVMS-SWAgencyEmail-PLUGIN.git</connection>
-      <tag>HEAD</tag>
-  </scm>
+        <connection>scm:git:git@github.com:FocusFish/UVMS-SWAgencyEmail-PLUGIN.git</connection>
+        <tag>HEAD</tag>
+    </scm>
     
     <modules>
         <module>service</module>
