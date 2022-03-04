@@ -10,7 +10,7 @@
 
     <groupId>fish.focus.uvms.plugins.sweagencyemail</groupId>
     <artifactId>sweagencyemail</artifactId>
-    <version>3.0.5-SNAPSHOT</version>
+    <version>3.0.5</version>
     <packaging>pom</packaging>
     <description>Plugin template</description>
     
@@ -46,7 +46,7 @@
 
     <scm>
         <connection>scm:git:git@github.com:FocusFish/UVMS-SWAgencyEmail-PLUGIN.git</connection>
-        <tag>HEAD</tag>
+        <tag>sweagencyemail-3.0.5</tag>
     </scm>
     
     <modules>
